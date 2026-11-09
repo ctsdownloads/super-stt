@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T06:04:38Z",
+  "generated_at": "2026-11-09T12:03:16Z",
   "min_client": "0.1.0",
   "backends": [
     {
@@ -205,12 +205,6 @@
           "sha256": "b7bedd6856a4a268782274e778f0f239c686e6b46ef15fabfdeb4d12fc623048"
         }
       },
-      "index_stale": {
-        "latest_attempted": "0.1.2",
-        "tag": "v0.1.2",
-        "error": "HTTP status server error (504 Gateway Time-out) for url (https://github.com/jorge-menjivar/super-stt-openai/releases/download/v0.1.2/backend.toml)",
-        "since": "2026-11-09T06:04:38Z"
-      },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-openai/releases/download/v0.1.2/backend.toml",
         "size": 7793,
@@ -283,12 +277,6 @@
             ]
           }
         ]
-      },
-      "index_stale": {
-        "latest_attempted": "0.1.1",
-        "tag": "v0.1.1",
-        "error": "HTTP status server error (504 Gateway Time-out) for url (https://github.com/jorge-menjivar/super-stt-qwen-asr/releases/download/v0.1.1/backend.toml)",
-        "since": "2026-11-09T06:04:38Z"
       },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-qwen-asr/releases/download/v0.1.1/backend.toml",
@@ -470,12 +458,6 @@
             "sha256": "7a89fefa61a12b8a01ebc0e0045aa60032040a70d858eaf20b6ac23e44bcad61"
           }
         ]
-      },
-      "index_stale": {
-        "latest_attempted": "0.1.0",
-        "tag": "v0.1.0",
-        "error": "HTTP status server error (504 Gateway Time-out) for url (https://github.com/jorge-menjivar/super-stt-s1-mini/releases/download/v0.1.0/backend.toml)",
-        "since": "2026-11-09T06:04:38Z"
       },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-s1-mini/releases/download/v0.1.0/backend.toml",
@@ -724,12 +706,6 @@
           }
         ]
       },
-      "index_stale": {
-        "latest_attempted": "0.1.1",
-        "tag": "v0.1.1",
-        "error": "HTTP status server error (504 Gateway Time-out) for url (https://github.com/jorge-menjivar/super-stt-voxtral/releases/download/v0.1.1/voxtral-x86_64-unknown-linux-gnu-cuda12-sm86.tar.gz)",
-        "since": "2026-11-09T06:04:38Z"
-      },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-voxtral/releases/download/v0.1.1/backend.toml",
         "size": 7183,
@@ -963,12 +939,6 @@
             "sha256": "8228cdc582877f2d79920e239cb8810366b2bd68909560a4138e47d741fb785a"
           }
         ]
-      },
-      "index_stale": {
-        "latest_attempted": "0.1.1",
-        "tag": "v0.1.1",
-        "error": "HTTP status server error (504 Gateway Time-out) for url (https://github.com/jorge-menjivar/super-stt-whisper/releases/download/v0.1.1/whisper-x86_64-unknown-linux-gnu-cuda12-sm86.tar.gz)",
-        "since": "2026-11-09T06:04:38Z"
       },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-whisper/releases/download/v0.1.1/backend.toml",
