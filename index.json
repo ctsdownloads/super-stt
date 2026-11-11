@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T00:04:53Z",
+  "generated_at": "2026-11-11T06:03:24Z",
   "min_client": "0.1.0",
   "backends": [
     {
@@ -458,6 +458,12 @@
             "sha256": "7a89fefa61a12b8a01ebc0e0045aa60032040a70d858eaf20b6ac23e44bcad61"
           }
         ]
+      },
+      "index_stale": {
+        "latest_attempted": "0.2.0",
+        "tag": "v0.2.0",
+        "error": "manifest declares `id = \"app.super-voice.s1-mini\"` but the registry entry declares \"app.super-stt.s1-mini\"",
+        "since": "2026-11-11T06:03:24Z"
       },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-s1-mini/releases/download/v0.1.0/backend.toml",
