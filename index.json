@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T06:03:34Z",
+  "generated_at": "2026-11-12T12:03:21Z",
   "min_client": "0.1.0",
   "backends": [
     {
@@ -898,8 +898,8 @@
         ]
       },
       "index_stale": {
-        "latest_attempted": "0.2.0",
-        "tag": "v0.2.0",
+        "latest_attempted": "0.2.1",
+        "tag": "v0.2.1",
         "error": "manifest declares `id = \"app.super-voice.whisper\"` but the registry entry declares \"app.super-stt.whisper\"",
         "since": "2026-11-12T00:05:12Z"
       },
