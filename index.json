@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T18:02:50Z",
+  "generated_at": "2026-11-12T00:05:12Z",
   "min_client": "0.1.0",
   "backends": [
     {
@@ -106,9 +106,9 @@
         }
       },
       "index_stale": {
-        "latest_attempted": "0.2.0",
-        "tag": "v0.2.0",
-        "error": "manifest declares `id = \"app.super-voice.mistral\"` but the registry entry declares \"app.super-stt.mistral\"",
+        "latest_attempted": "0.3.0",
+        "tag": "v0.3.0",
+        "error": "this backend is built for super-voice, not super-stt",
         "since": "2026-11-11T12:03:31Z"
       },
       "manifest": {
@@ -557,6 +557,12 @@
           "sha256": "b7a599e277a6cff87b993ff81230410f02c11e91c38c6de3661fa21746d4339b"
         }
       },
+      "index_stale": {
+        "latest_attempted": "0.2.0",
+        "tag": "v0.2.0",
+        "error": "manifest declares `id = \"app.super-voice.tidy\"` but the registry entry declares \"app.super-stt.tidy\"",
+        "since": "2026-11-12T00:05:12Z"
+      },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-tidy/releases/download/v0.1.0/backend.toml",
         "size": 3470,
@@ -890,6 +896,12 @@
             "sha256": "8228cdc582877f2d79920e239cb8810366b2bd68909560a4138e47d741fb785a"
           }
         ]
+      },
+      "index_stale": {
+        "latest_attempted": "0.2.0",
+        "tag": "v0.2.0",
+        "error": "manifest declares `id = \"app.super-voice.whisper\"` but the registry entry declares \"app.super-stt.whisper\"",
+        "since": "2026-11-12T00:05:12Z"
       },
       "manifest": {
         "url": "https://github.com/jorge-menjivar/super-stt-whisper/releases/download/v0.1.1/backend.toml",
