@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T18:03:25Z",
+  "generated_at": "2026-11-19T00:05:41Z",
   "min_client": "0.1.0",
   "backends": [
     {
       "id": "deepgram",
       "backend_id": "app.super-voice.deepgram",
       "source": "github.com/jorge-menjivar/super-stt-deepgram",
-      "version": "0.2.0",
-      "tag": "v0.2.0",
+      "version": "0.2.1",
+      "tag": "v0.2.1",
       "name": "Deepgram",
       "description": "Cloud speech-to-text via the Deepgram API.",
       "license": "GPL-3.0-only",
@@ -42,15 +42,15 @@
       "options": [],
       "assets": {
         "wasm": {
-          "url": "https://github.com/super-libre/super-voice-deepgram/releases/download/v0.2.0/deepgram.wasm",
-          "size": 270751,
-          "sha256": "828428a8a0aed772e27725160d9d7954205fe6c12147925e0d4dbf75363209fb"
+          "url": "https://github.com/super-libre/super-voice-deepgram/releases/download/v0.2.1/deepgram.wasm",
+          "size": 281616,
+          "sha256": "2aed1952db92542ec66434448cc1cabaa1b6f27e81046e36b42f8043a67f8ee2"
         }
       },
       "manifest": {
-        "url": "https://github.com/super-libre/super-voice-deepgram/releases/download/v0.2.0/backend.toml",
-        "size": 2878,
-        "sha256": "e40e010aa25bf78f48dcf3423971238cded06bdb12bad3a5a7bb03b8fadea00a"
+        "url": "https://github.com/super-libre/super-voice-deepgram/releases/download/v0.2.1/backend.toml",
+        "size": 2853,
+        "sha256": "207ba8fbf973962448aeeeda26182b3475290940af52d8c8989b176ba8a25e0d"
       }
     },
     {
@@ -106,8 +106,8 @@
         }
       },
       "index_stale": {
-        "latest_attempted": "0.3.0",
-        "tag": "v0.3.0",
+        "latest_attempted": "0.3.1",
+        "tag": "v0.3.1",
         "error": "this backend is built for super-voice, not super-stt",
         "since": "2026-11-11T12:03:31Z"
       },
@@ -213,8 +213,8 @@
         }
       },
       "index_stale": {
-        "latest_attempted": "0.2.0",
-        "tag": "v0.2.0",
+        "latest_attempted": "0.2.1",
+        "tag": "v0.2.1",
         "error": "manifest declares `id = \"app.super-voice.openai\"` but the registry entry declares \"app.super-stt.openai\"",
         "since": "2026-11-11T12:03:31Z"
       },
@@ -473,8 +473,8 @@
         ]
       },
       "index_stale": {
-        "latest_attempted": "0.2.0",
-        "tag": "v0.2.0",
+        "latest_attempted": "0.2.2",
+        "tag": "v0.2.2",
         "error": "manifest declares `id = \"app.super-voice.s1-mini\"` but the registry entry declares \"app.super-stt.s1-mini\"",
         "since": "2026-11-11T06:03:24Z"
       },
@@ -558,8 +558,8 @@
         }
       },
       "index_stale": {
-        "latest_attempted": "0.2.0",
-        "tag": "v0.2.0",
+        "latest_attempted": "0.2.1",
+        "tag": "v0.2.1",
         "error": "manifest declares `id = \"app.super-voice.tidy\"` but the registry entry declares \"app.super-stt.tidy\"",
         "since": "2026-11-12T00:05:12Z"
       },
@@ -573,8 +573,8 @@
       "id": "voxtral",
       "backend_id": "app.super-voice.voxtral",
       "source": "github.com/jorge-menjivar/super-stt-voxtral",
-      "version": "0.2.0",
-      "tag": "v0.2.0",
+      "version": "0.2.1",
+      "tag": "v0.2.1",
       "name": "Voxtral",
       "description": "Local Voxtral speech-to-text.",
       "license": "GPL-3.0-only",
@@ -612,17 +612,17 @@
             "target": "x86_64-unknown-linux-gnu",
             "accel": "cuda",
             "cuda_major": 12,
-            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/voxtral-x86_64-unknown-linux-gnu-cuda12.tar.gz",
-            "size": 55204031,
-            "sha256": "900bc5c4739f5a487c4de7a174c6b24eb7ca158add703d6697e1217ff4f74ff5"
+            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/voxtral-x86_64-unknown-linux-gnu-cuda12.tar.gz",
+            "size": 55206494,
+            "sha256": "39129c2d92aa9c12726398c8dd5b7684b1d837e4c1b5cc34518e35110fe5a763"
           },
           {
             "target": "x86_64-unknown-linux-gnu",
             "accel": "cuda",
             "cuda_major": 13,
-            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/voxtral-x86_64-unknown-linux-gnu-cuda13.tar.gz",
-            "size": 55200949,
-            "sha256": "9c99e8d64f47a454be9987b069315e468e93b38c746e43f366d551a2ae65b56a"
+            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/voxtral-x86_64-unknown-linux-gnu-cuda13.tar.gz",
+            "size": 55204450,
+            "sha256": "fe8478695867c424569b1eed9be1c64685406baafcee9fb4038b8ba3e68caffc"
           },
           {
             "target": "x86_64-unknown-linux-gnu",
@@ -642,31 +642,31 @@
               "gfx1200",
               "gfx1201"
             ],
-            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/voxtral-x86_64-unknown-linux-gnu-rocm.tar.gz",
-            "size": 63391290,
-            "sha256": "0f8c82e36e688970255a3c76a8bc50e6d5ea185bd9d6ef58116e8fc2007fb7ee"
+            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/voxtral-x86_64-unknown-linux-gnu-rocm.tar.gz",
+            "size": 63400107,
+            "sha256": "b9cc732f506b8fe83a95781a3c36b31b203d82258346c4b6a917196cb7c2b66d"
           },
           {
             "target": "x86_64-unknown-linux-gnu",
             "accel": "vulkan",
             "vulkan_api": "1.2",
-            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/voxtral-x86_64-unknown-linux-gnu-vulkan.tar.gz",
-            "size": 31892365,
-            "sha256": "bdb0e113ad0943a185a8de7bbe9ed12cd8d238b92583410e87cb38acb81643ab"
+            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/voxtral-x86_64-unknown-linux-gnu-vulkan.tar.gz",
+            "size": 31917638,
+            "sha256": "f34e431916fb3c72c3a2ea0a5a6e20b1e9fda3e0624f7bfb982c54b48a09b65c"
           },
           {
             "target": "aarch64-apple-darwin",
             "accel": "metal",
-            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/voxtral-aarch64-apple-darwin-metal.tar.gz",
-            "size": 26826414,
-            "sha256": "8026bdb5373f434c65637620f8f96e4c536606300b048a75d33a59c88e71aaac"
+            "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/voxtral-aarch64-apple-darwin-metal.tar.gz",
+            "size": 26709066,
+            "sha256": "d48cae4fe8d3634ee5c0f61c9cbd564571b9670110f4069cc9e99c9c6b28261c"
           }
         ]
       },
       "manifest": {
-        "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.0/backend.toml",
-        "size": 7192,
-        "sha256": "5e851888a98eee4f298a1d37b045c81724323f8a008463bcc66915895cd0239c"
+        "url": "https://github.com/super-libre/super-voice-voxtral/releases/download/v0.2.1/backend.toml",
+        "size": 7231,
+        "sha256": "118dcd50d4167fb46c864f7873230aac868a469fcc66a23ae6f787049d2c0504"
       }
     },
     {
@@ -898,8 +898,8 @@
         ]
       },
       "index_stale": {
-        "latest_attempted": "0.2.1",
-        "tag": "v0.2.1",
+        "latest_attempted": "0.2.2",
+        "tag": "v0.2.2",
         "error": "manifest declares `id = \"app.super-voice.whisper\"` but the registry entry declares \"app.super-stt.whisper\"",
         "since": "2026-11-12T00:05:12Z"
       },
